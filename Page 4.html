@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Radio button</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        
+
+
+
+        <p>Is Jek a hekin snek?</p>
+        <form action="">
+            <label for="yes">Yes: </label>
+            <input type="radio" id="yes" name="snekOpinion" value="yay">
+            <!-- giving inputs the same name connects them -->
+            <label for="no">No: </label>
+            <input type="radio" id="no" name="snekOpinion" value="nay">
+
+            <p>How much do you love your snek?</p>
+
+            <select name="snekMeter" id="">
+                <option value="">Choose</option>
+                <option value="kinda">kinda</option>
+                <option value="alot">alot</option>
+                <option value="SUPER">SUPER</option>
+            </select>
+
+            
+            <textarea name="talk about your snek!" id="" cols="30" rows="10"></textarea>
+
+            <div>
+                <label for="agreed">Do you agree to being a snekowner?</label>
+                <input type="checkbox" name="agreed" id="agreed">
+            </div>
+
+
+
+            <button>give opinion</button>
+            <!-- button automattically becomes a submit button if it is the last thing in a form -->
+        </form>
+        <script src="" async defer></script>
+    </body>
+</html>
