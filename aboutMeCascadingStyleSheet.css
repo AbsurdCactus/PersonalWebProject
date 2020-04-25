@@ -1,0 +1,30 @@
+h1{
+    color: #FF8000;
+    border-color: purple;
+    border-width: 5px ;
+    border-style: solid;
+
+
+}
+
+li{
+    color: rgb(100, 60, 20);
+    
+}
+
+h4{
+    color: rgba(11, 99, 150, .2);
+    /* the fourth channel, Alpha, changes the transparency of your color, and is completely optional. */
+}
+
+body {
+    /* background: pink; */
+    background: url(https://external-preview.redd.it/ERKH5wZvUhdrM_SSMkpk0pbq5ha_0iJyw6GxKwA7rx4.jpg?auto=webp&s=fa3b7c773bb30e2e9a7b64f8cf37ed4da689c958);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Color in CSS: hexadecimal (# + String of 6 Hexadecimal numbers (from 0-F). colorpicker.com is a good resource for this. 
+ And RGB, which is still in base 10 (3 channels: Red, Green and Blue. Reach ranges from 0-255
+ And RGBA, which is the same except for Alpha */
