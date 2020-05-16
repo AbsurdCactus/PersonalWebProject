@@ -28,3 +28,5 @@ body {
 /* Color in CSS: hexadecimal (# + String of 6 Hexadecimal numbers (from 0-F). colorpicker.com is a good resource for this. 
  And RGB, which is still in base 10 (3 channels: Red, Green and Blue. Reach ranges from 0-255
  And RGBA, which is the same except for Alpha */
+
+ /* Three different selectors: Element, ID, and Class */
