@@ -5,3 +5,11 @@ body{
 li{
     background-color: peru;
 }
+
+#special{
+    background: yellow;
+}
+
+.completed { 
+    text-decoration: line-through;
+}
