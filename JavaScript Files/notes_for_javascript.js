@@ -28,3 +28,10 @@ alert("duck dad")//just a method which gives off an alert
 //prompt lets a prompt come up in the browser
 prompt("what is your name")
 
+//IF WE WANT TO RUN OUR SCRIPT BEFORE THE PAGE RENDERS, WE PUT THE SCRIPT IN THE HEADER.
+//IF WE WANT TO RUN OUR SCRIPT AFTER THE PAGE RENDERS, WE ADD IT AFTER THE BODY.
+
+
+
+
+
