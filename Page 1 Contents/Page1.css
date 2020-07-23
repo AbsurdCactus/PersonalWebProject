@@ -3,6 +3,8 @@ h1{
     color: rgb(31, 133, 222);
     font-size: 30px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
     
 }
 
@@ -16,4 +18,17 @@ body{
     background-repeat: repeat;
     background-size: cover;
     font-family: 'Raleway', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#mainMenu > ul{
+    vertical-align: top;
+    flex-direction: column;
+    
+    
+    
+
 }
