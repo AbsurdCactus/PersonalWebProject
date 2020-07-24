@@ -20,15 +20,17 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
-ul{
-    list-style-type: none;
+#mainMenu{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
-#mainMenu > ul{
-    vertical-align: top;
+
+
+#theMeatsAndGravy{
+    text-align: center;
+    display: flex;
     flex-direction: column;
-    
-    
-    
 
 }
